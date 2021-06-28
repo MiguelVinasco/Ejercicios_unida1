@@ -20,15 +20,15 @@ public class ejercio_cifras {
 
     public static int cifras(int numero){
 
-        var cifras = 0;
+        var incremento_cifras = 0;
 
         while (numero != 0) {
 
             numero /= 10;
-            cifras++;          
+            incremento_cifras++;          
         }
 
-        return cifras;
+        return incremento_cifras;
 
 
 
