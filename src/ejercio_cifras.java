@@ -13,7 +13,7 @@ public class ejercio_cifras {
 
         var digito = cifras(numero);
 
-        System.out.println("el numero tiene "+ digito + " cifras");
+        System.out.println("el numero " + numero + " tiene "+ digito + " cifras");
 
 
     }
