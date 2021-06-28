@@ -18,7 +18,6 @@ public class promedio_notas {
         
         var nota3 = entrada.nextDouble();
 
-        //var ecuacion = 0;
         var ecuacion = ecuacion(nota1, nota2, nota3);
         var salida = promedio(ecuacion);
         
