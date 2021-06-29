@@ -9,18 +9,18 @@ public class ejercio_cifras {
 
         System.out.println("Ingresa el numero:");
 
-        var numero = entrada.nextInt();
+        int numero = entrada.nextInt();
 
-        var digito = cifras(numero);
+        int digito = cifras(numero);
 
-        System.out.println("el numero " + numero + " tiene "+ digito + " cifras");
+        System.out.println("el numero " + numero + " tiene "+ digito + " cifras.");
 
 
     }
 
     public static int cifras(int numero){
 
-        var incremento_cifras = 0;
+        int incremento_cifras = 0;
 
         while (numero != 0) {
 
