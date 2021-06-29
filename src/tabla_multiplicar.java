@@ -10,32 +10,33 @@ public class tabla_multiplicar {
         
         int numero = entrada.nextInt();
 
-        int tabla = multiplica(numero);
+        tabla(numero);
+
+        //ltiplica(numero,acumulador);
+
+        
+        
+        }
+    
+
+
+    public static void tabla(int numero) {
 
         for (int i = 0; i <11; i++) {
             
 
-            System.out.println("la tabla es " + numero + "*"+  i + " = " + (numero*i));
-    
-        }
+            System.out.println("la tabla es " + numero + "*"+  i + " = " + multiplica(numero, i));
 
-        //System.out.print("la tabla del "+ numero + " es: ");
+
+        }
+        
     }
 
 
-    public static int multiplica(int numero){
+    public static int multiplica(int numero, int acumulador){
 
-       
 
-        for (int i = 0; i <=10;  i++) {
-
-            numero *= i;
-            
-            System.out.println(numero);
-
-        }
-
-        return numero;
+        return numero*acumulador;
     }
     
 }
